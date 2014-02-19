@@ -20,12 +20,11 @@ Or install it yourself as:
 
 ### Registering repos:
 
-  Tory.register(:users, UserRepository.new)
+    Tory.register(:users, UserRepository.new)
 
 ### Asking for repos:
 
-  Tory.for(:users)
-
+    Tory.for(:users)
 
 ## Contributing
 
