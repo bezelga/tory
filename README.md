@@ -1,6 +1,6 @@
 # Tory
 
-TODO: Write a gem description
+Simple implementation of the Repository Pattern. The Repo Boss is called Tory, ask him for repos.
 
 ## Installation
 
@@ -20,11 +20,11 @@ Or install it yourself as:
 
 ### Registering repos:
 
-Tory.register(:users, UserRepository.new)
+  Tory.register(:users, UserRepository.new)
 
-### Fetching repos:
+### Asking for repos:
 
-Tory.for(:users)
+  Tory.for(:users)
 
 
 ## Contributing
